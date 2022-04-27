@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="font.js" crossorigin="anonymous"></script>
+    <title>tazmert iw</title>
+  </head>
+  <body>
+    <!-- Nav container -->
+    <nav class="navbar">
+      <!-- Logo with text -->
+      <div class="navbar__logo">
+        <img id="logo" src="../images/Leaf Cross Medical Center Hospital Logo.png"> 
+      </div>
+      <!-- Menu -->
+      <ul class="navbar__menu">
+        <li id="1ic"><i class="fa-thin fa-house fa-2x" style="color:white; margin-right: 10px;">             </i><a id="nav-a" href="">Home</a></li>
+        <li id="2ic"><i class="fa-thin fa-user-doctor fa-2x"style="color:white; margin-right: 10px;">          </i><a id="nav-a" href="">Medcins</a></li>
+        <li id="3ic"><i class="fa-thin fa-clipboard-question fa-2x"style="color:white; margin-right: 10px;">   </i><a id="nav-a" href="">Question</a></li>
+        <li id="4ic"><i class="fa-thin fa-calendar-check fa-2x"style="color:white; margin-right: 10px;">       </i><a id="nav-a" href="">Rendez-vous</a></li>
+      </ul>
+      <!-- Icons -->
+      <ul class="navbar__icons">
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-telegram"></i></li>
+      </ul>
+    </nav>
+
+
+
+
+
+  <!-- main  -->
+    <main>
+  <!-- l'image -->
+
+     <div class="main-container">
+       <img id="doctorimg" src="../images/doctor-6701410.jpg">
+       <p id="textimg">Quand vous avez besoin <br> d'une réponses,<br> tu sais où aller.</p>
+       <p id="textimg2">L'hôpital n ° 1 du pays, pour vous.</p>
+     </div>
+
+  <!-- info sur l'hopitale -->
+
+     <div class="about-container">
+       <h2>Pourquoi choisir<br>IFER HOPITALE </h2>
+       <button id="plusbtn">Voir Plus</button>
+       <div class="ul-container">
+        <!-- 1 -->
+          <div id="li-container">
+            <i id="icon-about" class="fa-thin fa-stethoscope"></i>
+            <li>Plus d'expérience</li>
+            <p>Le million de patients que nous traitons chaque année nous prépare<br>
+               à traiter celui qui compte le plus : vous.</p>
+          </div>
+        <!-- 2 -->
+          <div id="li-container">
+            <i id="icon-about" class="fa-thin fa-wave-pulse"></i>
+            <li>Les bonnes réponses</li>
+            <p>Comptez sur nos experts pour vous fournir un diagnostic précis <br>
+               et le bon plan pour vous du premier coup.</p>
+          </div>
+          <!-- 3 -->
+          <div id="li-container">
+            <i id="icon-about" class="fa-thin fa-hand-holding-heart"></i>
+            <li>Vous venez en premier</li>
+            <p>Le traitement à la Mayo Clinic est une expérience véritablement humaine.<br>
+               Vous êtes d'abord pris en charge en tant que personne.</p>
+          </div>
+          <!-- 4 -->
+          <div id="li-container">
+            <i id="icon-about" class="fa-thin fa-face-smile-plus"></i>
+            <li>Innover avec impact</li>
+            <p>Tous nos soins aux patients, l'éducation et la recherche sont motivés pour <br>
+              faire des découvertes qui peuvent vous aider à guérir.</p>
+          </div>
+         </ul>
+       </div>
+     </div>
+  <!-- LA RECHERCHE  -->
+
+    <div class="searching-info">
+      <!-- 1  -->
+
+      <div class="doctor-searche">
+        <i id="searching-info-icon"class="fa-thin fa-user-doctor"></i>
+        <p>Chercher un Docteur</p>
+        <div id="searche-holder-container">
+           <!-- <select id="cherche-input-1" >
+              <option id="option" selected">Chercher un docteur...</option>
+              <option id="option" value="1">mes</option>
+              <option id="option" value="2">messii</option>
+              <option id="option" value="3">messii</option>
+            </select> -->
+            <h5 class="p-searche">chercher un docteur... </h5>
+            <a href="http://localhost/hopitale/docteurs/docteurs.php">
+            <i id="left-icon-1" class="fa-thin fa-angle-right"></i></a>
+        </div>
+      </div>
+      <!--  2   -->
+
+      <div class="location-searche">
+        <i id="searching-info-icon"class="fa-thin fa-location-dot"></i>
+        <P>Chercher une location</P>
+        <div id="searche-holder-container">
+          <!-- < <select id="cherche-input-2">
+              <option id="option" selected> Chercher un location...</option>
+              <option id="option" value="1">mes</option>
+              <option id="option" value="2">messii</option>
+              <option id="option" value="3">messii</option>
+            </select> -->
+            <h5 class="p-searche">chercher une location... </h5>
+            <a href="#"><i id="left-icon-2" class="fa-thin fa-angle-right"></i></a>
+        </div>
+      </div>
+      <!-- 3  -->
+
+      <div class="service-searche">
+        <i id="searching-info-icon"class="fa-thin fa-bed-pulse"></i>
+        <p>Chercher un service</p>
+        <div id="searche-holder-container">
+          <!-- <select id="cherche-input-3">
+              <option id="option" selected> Chercher un service...</option>
+              <option id="option" value="1">mes </option>
+              <option id="option" value="2">messii</option>
+              <option id="option" value="3">messii</option>
+            </select> -->
+            <h5 class="p-searche">chercher un service... </h5>
+            <a href="#"><i id="left-icon-3" class="fa-thin fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class= "asid">
+      <div class="asid-info">
+         <div class="appointment">
+            <h3>Allez maintenant</h3>
+            <span>Obtenir un rendez-vous</span>
+            <i id="right-icon-1"class="fa-regular fa-right-long"></i>
+         </div>
+         <div class="give-qst">
+            <h3>Quand vous avez besoin d'une réponse,<br> vous savez ou allez </h3>
+            <span>L'inconnue est just une question<br>on va le trouver une réponse</span>
+            <i id="right-icon-2"class="fa-regular fa-right-long"></i>
+         </div>
+        <div class="chercher-maladie">
+          <h3>Chercher un maladie & condition</h3>
+          <span>Obtenir un rendez-vous</span>
+          <i id="right-icon-3" class="fa-regular fa-right-long"></i>
+        </div>
+      </div>
+      <!--  sign-in  -->
+      <div class="sign-in-form-container">
+          <div class="sign-in-name">
+            <span id="sign-in-name1" >Rejoignez notre comunitie avec IFFER Hopitale gratuitement</span>
+          </div>
+          <form class="sign-in-form">
+            <div id="email">
+              <label>Email</label>
+              <input type="text" placeholder="Email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div id="pass">
+              <label>Mot de pass</label>
+              <input type="password" placeholder="Mot de pass" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button id="sign-up-btn">Sign-up</button>
+            <span> Si vous n'avez pas un compte ! </span><br>
+            <button id="log-in-btn">Log-in</button>
+            <span> Si vous avez un compte !</span><br>
+            <a href="">mot de passe oublié ?</a>
+            <div class="conf">
+              <span class="conf1">Nous ne partageons JAMAIS votre email avec qui que ce soit</span><br>
+              <span class="conf2">En vous inscrivant à IFFER Hopital, vous acceptez les conditions d'utilisation et la politique de confidentialité.</span>
+            </div>
+         </form>
+      </div>
+    </div>
+    </main>
+  <!-- footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>IFFER Hopitale</h4>
+            <ul>
+              <li><a href="#">sur nous</a></li>
+              <li><a href="#">nos services</a></li>
+              <li><a href="#">politique de confidentialité</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>obtenir de l'aide</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">question</a></li>
+              <li><a href="#">rendez-vous</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>patient</h4>
+            <ul>
+              <li><a href="#">sign-up</a></li>
+              <li><a href="#">docteurs</a></li>
+              <li><a href="#">locations</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 id="followUs">follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
